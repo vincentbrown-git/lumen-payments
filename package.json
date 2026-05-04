@@ -1,0 +1,14 @@
+{
+  "name": "lumen-payments",
+  "version": "0.1.0",
+  "description": "Payments microservice for the Lumen invoicing app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"no tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
