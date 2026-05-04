@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 
 // Health check — Kubernetes hits this every few seconds via the readiness/liveness probes.
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', service: 'payments' });
+  res.json({ status: 'ok', service: 'payments', version: 'v2' });
 });
 
 // Fake "look up a payment" endpoint.
